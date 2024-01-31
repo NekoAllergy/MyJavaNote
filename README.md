@@ -25,6 +25,8 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 
 연결 - tomcat 얘(통칭 WAS) 쓰면 알아서 해줌. 구동원리만 알면 됨
 요청에 따른 페이지를 응답해줌
+class파일만 있으면 됨 나머진 매핑으로 요처받음(/hello)
+
 localhost = ipconfig IPv4
 
 servlet(let = 조각, ServerApplicationLet > 여러 문서중 하나만 제공되는 문서 = 현재 실행 중인 페이지)
