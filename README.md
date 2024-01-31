@@ -1,6 +1,6 @@
 # MyJavaNote
 
-까먹기 쉬운거(오류)
+[까먹기 쉬운거(오류)]
 tomcat 실행 오류(startup.bat http://localhost:8080)
 - 이미 tomcat이 실행 중인지 확인(자바 프로젝트, bat파일)
 - JAVA_HOME의 경로가 jdk가 있는 경로인지 확인(C:\Program Files\Java\jdk-17)
@@ -9,7 +9,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 >> (프로젝트 경로를 Context가 아닌 루트로 사용하기 위함)
 
 
-사전 지식
+[사전 지식]
 1. 프로그래밍 과정
 코드 작성(.txt > .java 파일 생성) - 컴파일(cmd > javac > .class) - 배포(classes > .class, mapping > .xml) - 서버 on(startup.bat-winOS) - 브라우저 요청(localhost:8080/~ 입력)
 
@@ -20,7 +20,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 
 
 
-사이트를 만들기 위해 필요한 것
+[사이트를 만들기 위해 필요한 것]
 
 입력(UI) - html, jsp
 JSP 구현은 한번만 함.
