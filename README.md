@@ -1,17 +1,17 @@
 # MyJavaNote
 
-[까먹기 쉬운거(오류)]
+[까먹기 쉬운거(오류, 기본 설정)]
 
 tomcat 실행 오류(startup.bat http://localhost:8080)
 - 이미 tomcat이 실행 중인지 확인(자바 프로젝트, bat파일)
 - JAVA_HOME의 경로가 jdk가 있는 경로인지 확인(C:\Program Files\Java\jdk-17)
 
 프로젝트명 우클릭 - Properties - Web Projet Settings - Context root > "/"로 변경
-- 프로젝트 경로를 Context가 아닌 루트로 사용하기 위함
+- 프로젝트 경로를 Context가 아닌 ROOT로 사용하기 위함
 
-브라우저의 관점
-html 태그를 인식하여 반영함 - 엣지
-txt 태그 그대로 출력함 - 크롬
+브라우저의 해석방식
+html > 태그를 인식하여 반영함 - 엣지
+txt > 태그 그대로 출력함 - 크롬
 - 서버에서 인코딩(UTF-8)과 해석방식(text/html; charset=UTF-8)을 알려줘야함
 - CharaterEncoding/ContentType (filter)
 
