@@ -12,7 +12,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 브라우저의 관점
 html 태그를 인식하여 반영함 - 엣지
 txt 태그 그대로 출력함 - 크롬
-- 서버에서 인코딩과 해석방식을 알려줘야함
+- 서버에서 인코딩(UTF-8)과 해석방식(text/html; charset=UTF-8)을 알려줘야함
 - CharaterEncoding/ContentType (filter)
 
 WAS 기본 인코더 ISO-8859-1를
