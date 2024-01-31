@@ -24,7 +24,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 [사이트를 만들기 위해 필요한 것]
 
 입력(UI) - html, jsp
-JSP 구현은 한번만 함.
+.
 이후 따로 툴 써서 해결
 
 연결 - tomcat 얘(통칭 WAS 웹서버) 쓰면 알아서 해줌. 구동원리만 알면 됨
