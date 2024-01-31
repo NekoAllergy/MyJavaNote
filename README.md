@@ -44,10 +44,10 @@ root파일에 없지만 root파일에 있는것처럼 씀
 응답: 서버 > 브라우저
 
 HttpServlet의 시스템을 가져와 빌려 씀(Http는 하나의 연락수단)
-service()에서 구현함
+service()에서 구현함(보안상 Http > Https)
 
 
-데이터 저장 - arraylist, DBMS
-DB연동 대신 ArrayList 사용 가능(학습용)
+데이터 저장 - ArrayList, DBMS
+DB 연동 대신 ArrayList 사용 가능(학습용)
 
 
