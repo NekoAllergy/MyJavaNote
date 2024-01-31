@@ -5,10 +5,12 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 - 이미 tomcat이 실행 중인지 확인(자바 프로젝트, bat파일)
 - JAVA_HOME의 경로가 jdk가 있는 경로인지 확인(C:\Program Files\Java\jdk-17)
 
-사전 지식
+- 프로젝트명 우클릭 - Properties - Web Projet Settings - Context root > "/"로 변경
 
+
+사전 지식
 1. 프로그래밍 과정
-코드 작성(.txt > .java 파일 생성) - 컴파일(cmd > javac > .class) - 배포(classes > class, mapping > xml) - 서버 on(startup.bat-winOS) - 브라우저 요청(localhost:8080/~ 입력)
+코드 작성(.txt > .java 파일 생성) - 컴파일(cmd > javac > .class) - 배포(classes > .class, mapping > .xml) - 서버 on(startup.bat-winOS) - 브라우저 요청(localhost:8080/~ 입력)
 
 클라이언트가 문서 요청 시 네트워크를 통해 서버에서 문서를 만들어 보냄(1 과정 진행)
 자동화 이전에 직접 문서를 수정함 > 수정 할 때마다 다시 다운받음 > 1 과정반복(했던 일 또 해) > 자동화된 IDE, framework 사용(딸깍 on)
