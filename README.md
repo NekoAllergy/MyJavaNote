@@ -2,8 +2,8 @@
 
 까먹기 쉬운거
 tomcat 실행 오류(startup.bat http://localhost:8080)
-- 이미 tomcat이 실행 중인지 확인
-- JAVA_HOME의 경로가 jdk가 있는 경로인지 확인
+- 이미 tomcat이 실행 중인지 확인(자바 프로젝트, bat파일)
+- JAVA_HOME의 경로가 jdk가 있는 경로인지 확인(C:\Program Files\Java\jdk-17)
 
 사전 지식
 
@@ -22,6 +22,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 
 연결 - tomcat 얘(통칭 WAS) 쓰면 알아서 해줌. 구동원리만 알면 됨
 요청에 따른 페이지를 응답해줌
+localhost = ipconfig IPv4
 
 계산 - java, servlet(let = 조각, ServerApplicationLet > 여러 문서중 하나만 제공되는 문서 = 현재 실행 중인 페이지)
 HttpServlet 시스템을 가져와 빌려 씀(Http는 하나의 연락수단)
