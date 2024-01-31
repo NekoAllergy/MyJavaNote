@@ -1,6 +1,7 @@
 # MyJavaNote
 
 [까먹기 쉬운거(오류)]
+
 tomcat 실행 오류(startup.bat http://localhost:8080)
 - 이미 tomcat이 실행 중인지 확인(자바 프로젝트, bat파일)
 - JAVA_HOME의 경로가 jdk가 있는 경로인지 확인(C:\Program Files\Java\jdk-17)
