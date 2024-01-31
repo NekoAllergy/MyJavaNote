@@ -11,7 +11,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 코드 작성(txt,java 파일 생성) - 컴파일(cmd > class) - 배포(class, xml) - 서버 on(startup.bat-winOS) - 브라우저 요청(localhost:8080/~ 입력)
 
 클라이언트가 문서 요청 시 네트워크를 통해 서버에서 문서를 만들어 보냄(1 과정 진행)
-자동화 이전에 직접 문서를 수정함 > 수정 할 때마다 다시 다운받음 > 1 과정반복 > 했던 일 또 해 > 제일 싫어하는 것 > IDE, framework 사용(자동화)
+자동화 이전에 직접 문서를 수정함 > 수정 할 때마다 다시 다운받음 > 1 과정반복 > 했던 일 또 해 > 제일 싫어하는 것 > IDE, framework 사용(딸깍 on)
 
 
 
