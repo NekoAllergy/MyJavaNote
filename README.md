@@ -1,6 +1,6 @@
 # MyJavaNote
 
-까먹기 쉬운거
+까먹기 쉬운거(오류)
 tomcat 실행 오류(startup.bat http://localhost:8080)
 - 이미 tomcat이 실행 중인지 확인(자바 프로젝트, bat파일)
 - JAVA_HOME의 경로가 jdk가 있는 경로인지 확인(C:\Program Files\Java\jdk-17)
@@ -11,7 +11,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 코드 작성(txt,java 파일 생성) - 컴파일(cmd > class) - 배포(class, xml) - 서버 on(startup.bat-winOS) - 브라우저 요청(localhost:8080/~ 입력)
 
 클라이언트가 문서 요청 시 네트워크를 통해 서버에서 문서를 만들어 보냄(1 과정 진행)
-자동화 이전에 직접 문서를 수정함 > 수정 할 때마다 다시 다운받음 > 1 과정반복 > 했던 일 또 해 > 자동화된 IDE, framework 사용(딸깍 on)
+자동화 이전에 직접 문서를 수정함 > 수정 할 때마다 다시 다운받음 > 1 과정반복(했던 일 또 해) > 자동화된 IDE, framework 사용(딸깍 on)
 
 
 
@@ -23,7 +23,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 자바로 페이지 구현은 한번만 함.
 이후 따로 툴 써서 해결
 
-연결 - tomcat 얘(통칭 WAS) 쓰면 알아서 해줌. 구동원리만 알면 됨
+연결 - tomcat 얘(통칭 WAS 웹서버) 쓰면 알아서 해줌. 구동원리만 알면 됨
 요청에 따른 페이지를 응답해줌
 class파일만 있으면 됨 나머진 매핑으로 요처받음(/hello)
 
