@@ -1,5 +1,9 @@
 # MyJavaNote
 
+까먹기 쉬운거
+tomcat 실행 오류(startup.bat)
+- 이미 tomcat이 실행 중인지 확인
+- JAVA_HOME의 경로가 jdk가 있는 경오인지 확인
 
 사전 지식
 
@@ -13,13 +17,13 @@
 사이트를 만들기 위해 필요한것
 
 입력 - html, jsp
-자바로 페이지 구현 한번만 함.
+자바로 페이지 구현은 한번만 함.
 이후 따로 툴 써서 해결
 
 연결 - tomcat 얘(통칭 WAS) 쓰면 알아서 해줌. 구동원리만 알면 됨
 요청에 따른 페이지를 응답해줌
 
-계산 - java, servlet(let = 조각, ServerApplicationLet > 여러 문서중 하나만 제공하는 시스템을 servlet)
+계산 - java, servlet(let = 조각, ServerApplicationLet > 여러 문서중 하나만 제공되는 문서 = 현재 실행 중인 페이지)
 HttpServlet 시스템을 가져와 빌려 씀(Http는 하나의 연락수단)
 요청과 응답으로 나눔
 요청 브라우저(크롬) > 서버(톰캣)
