@@ -7,7 +7,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 - JAVA_HOME의 경로가 jdk가 있는 경로인지 확인(C:\Program Files\Java\jdk-17)
 
 프로젝트명 우클릭 - Properties - Web Projet Settings - Context root > "/"로 변경
->> (프로젝트 경로를 Context가 아닌 루트로 사용하기 위함)
+- 프로젝트 경로를 Context가 아닌 루트로 사용하기 위함
 
 
 [사전 지식]
