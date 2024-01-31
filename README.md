@@ -8,5 +8,7 @@
 
 계산 - java
 
+데이터 저장 - list, DBMS
+
 
 
