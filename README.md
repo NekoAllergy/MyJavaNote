@@ -1,4 +1,5 @@
 # MyJavaNote
+도움 ChatGPT-4
 
 [까먹기 쉬운거(오류, 기본 설정)]
 
