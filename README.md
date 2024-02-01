@@ -42,9 +42,9 @@ html <form> - servlet
 
 입력(UI) - html, jsp
 
-html에서 데이터를 보내줄 때 받는 입장에선 출처를 알아야하기때문에 폼태그를 정의하고
+html에서 데이터를 보내줄 때 받는 입장에선 출처를 알아야하기때문에 폼 태그를 정의하고
 <input name="x" value="3"> 이런 식으로 전달함
-자바에서 getParameter("name")으로 name을 확인하고 value값을 객체에 저장함.(자바에서 알아서 생성된 객체임)
+자바에서 request.getParameter("name")으로 name을 확인하고 value값을 객체에 저장함.(자바에서 알아서 생성된 객체임)
 
 
 
