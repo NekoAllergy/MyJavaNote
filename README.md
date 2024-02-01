@@ -37,12 +37,14 @@ UTF-8 로 간접 변경
 
 [사이트를 만들기 위해 필요한 것]
 
-html - <form> - servlet
+데이터 전송 과정
+html <form> - servlet
 
 입력(UI) - html, jsp
 
-<input name="x" value="3"> 을 전달함
-자바에서 getParameter로 
+html에서 데이터를 보내줄 때 받는 입장에선 출처를 알아야하기때문에 폼태그를 정의하고
+<input name="x" value="3"> 이런 식으로 전달함
+자바에서 getParameter("name")으로 name을 확인하고 value값을 객체에 저장함.(자바에서 알아서 생성된 객체임)
 
 
 
