@@ -31,7 +31,7 @@ instance.equals() 객체가 가진 값이 동일한지
 객체는 아직 구체화되지않은 이론에 가까움(설계는 되어있음)
 인스턴스는 구체화된 객체(프로그램 실행 시 실제 메모리상에 올라감)
 
-class ObjectA 를 만듬 > 객체임(인스턴스는 아님)
+class ObjectA를 만듬 > 객체임(인스턴스는 아님)
 (메서드랑 전역번수가 있음)
 private int EE;
 method(){};
@@ -82,19 +82,19 @@ html에서 데이터를 보내줄 때 받는 입장에선 출처를 알아야하
 
 String A = request.getParameter("name");
 
-으로 value 3을 저장함
+으로 value 3을 저장함(물론 내가.)
 
 
 
 연결 - tomcat 얘(통칭 WAS 웹서버) 쓰면 알아서 해줌. 구동원리만 알면 됨
 브라우저에서 페이지를 요청하면 그게 맞는지 확인하고 응답해줌
-class파일만 있으면 됨 나머진 매핑으로 요처받음(/hello)
+class파일만 있으면 됨 나머진 매핑으로 요청 받음(/hello)
 
-localhost = ipconfig IPv4(여러 기기에서 접속가능)
+localhost > ipconfig IPv4(여러 기기에서 접속가능)
 
 servlet(let = 조각, ServerApplicationLet > 여러 문서중 하나만 제공되는 문서 = 현재 실행 중인 html 페이지)
 
-context - webapps\root 폴더에서만 다루기 어려워, 나눠서 따로 개발하고 싶을 때 가상 경로만들어 개발함 webapps\contextFile (xml > META-INFO 권장)
+context - 개발 시 webapps\root 폴더에서만 다루기 어려워, 따로 나눠서 개발하고 싶을 때 가상 경로만들어 개발함 webapps\contextFile (xml에서 설정 > META-INFO 권장)
 root파일에 없지만 root파일에 있는것처럼 씀
 
 계산 - java
@@ -108,6 +108,6 @@ service()에서 구현함(보안상 Http > Https)
 
 
 데이터 저장 - ArrayList, DBMS
-DB 연동 대신 ArrayList 사용 가능(학습용)
+DB 연동 대신 ArrayList 사용 가능
 
 
