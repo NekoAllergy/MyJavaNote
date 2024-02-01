@@ -1,5 +1,5 @@
 # MyJavaNote
-ChatGPT 4 도움
+
 [까먹기 쉬운거(오류, 기본 설정)]
 
 tomcat 실행 오류(startup.bat http://localhost:8080)
@@ -8,6 +8,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 
 프로젝트명 우클릭 - Properties - Web Projet Settings - Context root > "/"로 변경
 - 프로젝트 경로를 Context가 아닌 ROOT로 사용하기 위함
+- 기본값을 가상경에서 root로 바꿈
 
 브라우저의 해석방식
 html > 태그를 인식하여 반영함 - 엣지
@@ -16,7 +17,7 @@ txt > 태그 그대로 출력함 - 크롬
 - CharaterEncoding/ContentType (filter)
 
 WAS 기본 인코더 ISO-8859-1를
-UTF-8 로 변경
+UTF-8 로 간접 변경
 1 바이트 해석 > 2 바이트 해석 변경
 영어 1byte, 한글 2byte
 
@@ -29,18 +30,19 @@ UTF-8 로 변경
 
 브라우저 - server - WAS - (중간과정) - Servlet
 
-중간과정 > filter, servlet2
+중간과정 > filter1,2, servlet2,3 등등
 
 
 
 
 [사이트를 만들기 위해 필요한 것]
 
+html - <form> - servlet
+
 입력(UI) - html, jsp
 
-<input name="x"> 태그를 전달함
-
-전달받은 태그 <name = "x"> x가 java에서 Parameter x로 취급되어 계산됨
+<input name="x" value="3"> 을 전달함
+자바에서 getParameter로 
 
 
 
