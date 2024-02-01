@@ -21,6 +21,12 @@ UTF-8 로 간접 변경
 1 바이트 해석 > 2 바이트 해석 변경
 영어 1byte, 한글 2byte
 
+== 동일한 객체를 참조하는지(=해시코드가 동일한지 instance@**15db9742**)
+
+.equals() 객체가 가진 값이 동일한지
+
+
+
 [사전 지식]
 1. 프로그래밍 과정
 코드 작성(.txt > .java 파일 생성) - 컴파일(cmd > javac > .class) - 배포(classes > .class, mapping > .xml) - 서버 on(startup.bat-winOS) - 브라우저 요청(localhost:8080/~ 입력)
@@ -46,8 +52,13 @@ html에서 데이터를 보내줄 때 받는 입장에선 출처를 알아야하
 
 <input name="x" value="3"> 이런 식으로 전달함
 
-그러면 자바에서 request.getParameter("name")으로 name키을 확인하고 value값을 문자열로 처리함
+그러면 자바에서 request.getParameter("x")으로 전달된 <input name="x">과 비교하여 name키가 동일한지 확인하고 value값은 String으로 처리됨
 
+이후 String 객체로
+
+String A = request.getParameter("name");
+
+으로 value 3을 저장함
 
 
 
