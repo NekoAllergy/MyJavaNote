@@ -1,5 +1,5 @@
 # MyJavaNote
-
+ChatGPT 4 도움
 [까먹기 쉬운거(오류, 기본 설정)]
 
 tomcat 실행 오류(startup.bat http://localhost:8080)
@@ -29,7 +29,7 @@ UTF-8 로 변경
 
 브라우저 - server - WAS - (중간과정) - Servlet
 
-중간과정 > filter
+중간과정 > filter, servlet2
 
 
 
@@ -37,8 +37,12 @@ UTF-8 로 변경
 [사이트를 만들기 위해 필요한 것]
 
 입력(UI) - html, jsp
-.
-이후 따로 툴 써서 해결
+
+<input name="x"> 태그를 전달함
+
+전달받은 태그 <name = "x"> x가 java에서 Parameter x로 취급되어 계산됨
+
+
 
 연결 - tomcat 얘(통칭 WAS 웹서버) 쓰면 알아서 해줌. 구동원리만 알면 됨
 브라우저에서 페이지를 요청하면 그게 맞는지 확인하고 응답해줌
