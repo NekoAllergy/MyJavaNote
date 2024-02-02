@@ -38,7 +38,7 @@ class ObjectA를 만듬 > 객체임(인스턴스는 아님)
 private int EE;
 method(){};
 
-main()에 그 클래스의 이름을 instanceA로 함 > 인스턴스임(근데 규칙에 따르면 객체도 맞음)
+main()에 그 클래스의 이름을 instanceA로 함 > 인스턴스임(근데 객체도 맞음)
 ObjectA instanceA(이게 인스턴스) = new ObjectA();
 
 instanceA.method()로 사용가능.
