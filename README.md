@@ -64,6 +64,20 @@ instanceA, instanceB 등등 여러 이름의 인스턴스 생성가능 어차피
 
 중간과정 > filter1,2, servlet2,3 등등
 
+MVC 모델
+프로젝트의 구조를 정하는 방법
+미리 파일을 역할 별로 나눠서 코드 작성을 용이하게 함.
+
+Controller
+브라우저에서 요청을 받아 모델과 뷰에 적용한다.
+데이터의 처리가 이루어진다.
+
+Model
+(주로) DB의 데이터가 정해진 규칙에 따라 전달됨.
+
+View
+웹 디자인을 담당하는 부분
+얼굴마담
 
 
 
@@ -98,6 +112,8 @@ servlet(let = 조각, ServerApplicationLet > 여러 문서중 하나만 제공�
 
 context - 개발 시 webapps\root 폴더에서만 다루기 어려워, 따로 나눠서 개발하고 싶을 때 가상 경로만들어 개발함 webapps\contextFile (xml에서 설정 > META-INFO 권장)
 root파일에 없지만 root파일에 있는것처럼 씀
+
+Node.js/Tomcat
 
 계산 - java
 
