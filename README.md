@@ -24,9 +24,10 @@ UTF-8 로 간접 변경
 1 바이트 해석 > 2 바이트 해석 변경
 영어 1byte, 한글 2byte
 
-== 동일한 객체를 참조하는지(=**해시코드**가 동일한지 instance@**15db9742**)
 
-instance.equals() 객체가 가진 값이 동일한지
+문자열
+ "==" > 동일한 객체를 참조하는지(=**해시코드**가 동일한지 instance@**15db9742**)
+ instance.equals() > 객체가 가진 값이 동일한지
 
 [가끔 고착화된 구린 번역 중 집고 넘어가는 점]
 객체와 인스턴스의 차이
@@ -41,14 +42,14 @@ method(){};
 main()에 그 클래스의 이름을 instanceA로 함 > 인스턴스임(근데 객체도 맞음)
 ObjectA instanceA(이게 인스턴스) = new ObjectA();
 
-instanceA.method()로 사용가능.
+instanceA.method()로 직접 사용 가능한 객체(=인스턴스)
 
 다른 설명으론 인스턴스는 사례라고 함.
 instanceA, instanceB 등등 여러 이름의 인스턴스 생성가능 어차피 같은 클래스에서 나온거라 기능은 같음
 
 부모 자식 > super sub
 상속 개념을 다룰 때 부모 자식은 parents child를 그대로 갖다쓴거
-이후 super sub로 바뀜
+이후 상위,하위(super, sub)로 바뀜
 
 
 
@@ -140,6 +141,13 @@ Node.js/Tomcat
 HttpServlet의 시스템을 가져와 빌려 씀(Http는 하나의 연락수단)
 service()에서 구현함(보안상 Http > Https)
 
+리스트와 배열을 쓰는 이유(데이터 효율)
+하나씩 보내는 것보다 한꺼번에 보내는게 효율적임
+여러 개를 하나씩 보내면 전부 일일히 같은 코드를 작성해야한다. > 코드 중복
+
+배열
+조건 - 써야하는 메모리 크기가 정해져있을 때(유동적이면 비효율적임)
+크기가 정해져있기 때문에 
 
 데이터 저장 - ArrayList, DBMS
 DB 연동 대신 ArrayList 사용 가능
