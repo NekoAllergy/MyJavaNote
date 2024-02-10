@@ -17,10 +17,10 @@ JSP
 
 MVC Model 1
 기존 jsp의 복잡한 개발 방식을 보기 좋게 구분해 놓은것(html코드와 java코드가 섞어 있음)
-이때 html코드와 java코드는 한 파일 내 존재하지면 서로 구분하여 쓰게 됨
+이때 html코드와 java코드는 한 파일 내 존재하지만 서로 섞어 쓰지않고 구분하여 쓰게 됨
 
-자바코드는 Controller로 모아둠
-
-출력에 필요한 변수만 html로 가져옴
+자바 코드만을 모아둔것을 controller.
+html은 view.
+html에 출력할 자바 코드의 변수를 model이라고 한다.
 
 View 
