@@ -13,7 +13,7 @@ java 콘솔출력 > was 연결 >  html,css > 이미지 추가
 
 
 JSP
-기존 html과 java파일로 나눠서 작업하던 것을 html과 java코드를 jsp파일에 구현할 수 있게 함
+기존 html과 java파일로 나눠서 작업하던 것을 html과 java코드를 jsp파일에 한 곳에 구현할 수 있게 함
 
 MVC Model 1
 기존 jsp의 복잡한 개발 방식을 보기 좋게 구분해 놓은것(html코드와 java코드가 섞어 있음)
