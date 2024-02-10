@@ -11,7 +11,7 @@ tomcat 실행 오류(startup.bat http://localhost:8080)
 
 프로젝트명 우클릭 - Properties - Web Projet Settings - Context root > "/"로 변경
 - 프로젝트 경로를 Context가 아닌 ROOT로 사용하기 위함
-- 기본값을 가상경에서 root로 바꿈
+- 기본값을 가상경로에서 root로 바꿈
 
 브라우저의 해석방식
 html > 태그를 인식하여 반영함 - 엣지
