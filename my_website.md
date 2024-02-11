@@ -23,3 +23,5 @@ MVC Model 1
 자바 코드만을 모아둔것을 controller.
 html은 view.
 html에 출력할 자바 코드의 변수를 model이라고 한다.
+
+model 1은 자바 코드와 html파일이 
